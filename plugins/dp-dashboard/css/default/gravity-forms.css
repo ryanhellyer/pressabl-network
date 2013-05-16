@@ -1,0 +1,231 @@
+#wpbody-content {
+	width: 100%;
+	}
+	
+	/* notification */
+	.wrap .updated_base {
+		margin: 18px 0;
+		}
+
+	/* check mark and star images next to entries and forms */
+	tbody img {
+		max-width: none;
+		}
+	
+.hr-divider {
+	background: #f2f2f2;
+	border: 0;
+	height: 1px;
+	margin: 18px 0;
+	}
+
+/* uninstall box */
+div.delete-alert {
+	clear: both;
+	margin: 18px 0;
+	}
+	
+/* form notifications container */
+#minor-publishingx {
+	padding: 12px 17px !important;
+	}
+	
+/* question mark signs */
+a.tooltip,
+a.tooltip_left,
+a.tooltip_bottomleft {
+	vertical-align: middle;
+	}
+	
+/* editor tools */
+html body.wp-admin div#wp-form_notification_message-editor-tools.wp-editor-tools {
+    position: static;
+	}
+
+	.wp-media-buttons {
+		line-height: 21px !important;
+		}
+		
+	.wp-media-buttons select {
+		font-size: 11px !important;
+		height: 28px;
+		line-height: 18px;
+		margin: 0;
+		padding: 6px 17px 5px !important;
+		}
+	
+@media (-webkit-min-device-pixel-ratio: 0) {
+
+	.wp-media-buttons select {
+		padding-top: 4px !important;
+		}
+		
+	.wp-media-buttons select,
+	.wp-media-buttons select[size="0"],
+	.wp-media-buttons select[size="1"] {
+		padding-right: 30px !important;
+		}
+
+	}
+
+	
+/**
+ * Gravity Form Toolbar
+ ************************************************/
+
+/* toolbar container */
+#gf_form_toolbar,
+div.wrap.gforms_edit_form #gf_form_toolbar {
+	clear: both;
+	margin: 0;
+	}
+	/* toolbar list */
+	ul#gf_form_toolbar_links {
+		background: #fff;
+		border: 1px solid #d6d6d6;
+		box-shadow: 0 1px 0 rgba(0,0,0,0.04);
+			-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.04);
+		clear: both;
+		float: left;
+		padding: 0;
+		margin: 18px 0;
+		min-width: auto;
+		width: 100%;
+		}
+		/* toolbar items */
+		ul#gf_form_toolbar_links li,
+		ul#gf_form_toolbar_links li.gf_form_toolbar_settings,
+		ul#gf_form_toolbar_links li.gf_form_toolbar_notifications{
+			border-right: 1px solid #f2f2f2;
+			float: left;
+			font-size: 14px;
+			height: 100%;
+			line-height: 22px;
+			padding: 22px 17px;
+			vertical-align: middle;
+			width: auto;
+			}
+			ul#gf_form_toolbar_links li a {
+				padding: 0 0 0 24px !important;
+				}
+		/* toolbar last item */
+		ul#gf_form_toolbar_links li:last-child {
+			border-right: 0;
+			}
+		ul#gf_form_toolbar_links li.gf_form_switcher {
+			float: right;
+			padding: 6px 17px;
+			position: static;
+			right: auto;
+			top: auto;
+			}
+			
+/**
+ * New/Edit Form
+ ************************************************/
+ 
+#after_update_dialog {
+	clear: both;
+	}
+
+/* form field with multiple columns */
+table.gfield_list thead tr th,
+table.gfield_list thead tr th + th {
+    padding: 5px 0 5px 17px ;
+	}
+table.gfield_list td.gfield_list_cell,
+table.gfield_list td.gfield_list_cell + td.gfield_list_cell {
+	padding: 12px 0 12px 17px;
+	}
+
+/* add input fields */
+#floatMenu {
+	background-color: transparent;
+	}
+	
+	.button-title-link div.add-buttons-title {
+		border-radius: 3px;
+		font-size: 15px;
+		height: auto;
+		padding: 8px 10px;
+		}
+	.add_field_button_container ul {
+		margin: 0;
+		}
+
+						ol.field_type li  input.button {
+							width: 98%;
+							}
+							
+						div#add_fields div#floatMenu ul#sidebarmenu1.menu li.add_field_button_container ul li.add-buttons ol.field_type li input.button:hover {
+							border-color: rgb(204, 204, 204);
+							background-image: none;
+							}
+							
+	#floatMenu a.submitdelete {
+		border: 0;
+		line-height: 36px;
+		margin: 6px 0;
+		padding: 0;
+		}
+	#floatMenu input.button-primary.gfbutton {
+		border-radius: 3px;
+		font-size: 18px !important;
+		letter-spacing: 0;
+		margin: 6px 0 !important;
+		padding: 3px 14px !important;
+		}
+
+/**
+ * Single entry view
+ ************************************************/
+
+/* content container */
+table.entry-detail-view {
+	margin: 0;
+	margin-bottom: 24px;
+	}
+	table.entry-detail-view th#details + th {
+		font-size: inherit !important;
+		width: auto !important;
+		}
+		
+table.entry-detail-notes .lastrow .button {
+	width: auto !important;
+	}
+	
+/* Sidebar */
+
+.forms_page_gf_entries #minor-publishing {
+	padding: 12px 17px !important;
+	}
+	
+div#publishing-action {
+    margin: 0;
+	}
+
+.detail-view-print {
+	padding-bottom: 18px;
+	}
+	input#gform_print_notes {
+		margin-left: 6px;
+		}
+		
+/**
+ * Add Ons
+ ************************************************/
+ 
+table#available-addons {
+    margin-left: 0;
+	}
+	
+	td.available-addon {
+		border: 0;
+		border-top: 1px solid #f2f2f2;
+		box-shadow: none;
+			-webkit-box-shadow: none;
+		}		
+	table#available-addons tr:first-child td {
+		border: 0;
+		}
+

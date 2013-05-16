@@ -1,0 +1,48 @@
+.theme-check {
+	background: #fff;
+	border: 1px solid #d6d6d6;
+    border-radius: 3px;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.04);
+		-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.04);
+	padding: 12px 17px;
+	}
+	.theme-check form {
+		margin: 0;
+		}
+		.theme-check form input.button,
+		.theme-check form select,
+		.theme-check form input[type="checkbox"] {
+			margin-right: 6px;
+			}
+	.theme-check h2 {
+		background: transparent;
+		border-bottom: 0;
+		font-size: 33px;
+		letter-spacing: -0.03em;
+		line-height: 48px;
+		margin: 0;
+		padding: 12px 0 0;
+		}
+	.theme-check h3 {
+		margin: 0;
+		padding: 12px 0;
+		}
+	.theme-check p {
+		padding: 12px 0;
+		}
+	.theme-check ul {
+		margin: 12px 0;
+		}
+		
+.theme-info {
+	border-radius: 3px;
+	margin: 12px 0;
+	}
+.tc-success {
+	margin: 18px 0;
+	padding: 12px 17px
+	}
+.tc-box {
+	border: 0;
+	padding: 12px 0px;
+	}

@@ -1,0 +1,2 @@
+Font Awesome is licensed under:
+MIT License - http://opensource.org/licenses/mit-license.html
