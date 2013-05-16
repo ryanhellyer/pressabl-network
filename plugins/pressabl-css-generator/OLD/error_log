@@ -1,0 +1,4 @@
+[12-Sep-2011 04:04:45] PHP Fatal error:  Call to undefined function add_action() in /home/pressabl/public_html/wp-content/plugins/pressabl-css-generator/index.php on line 25
+[12-Sep-2011 04:07:51] PHP Fatal error:  Call to undefined function add_action() in /home/pressabl/public_html/wp-content/plugins/pressabl-css-generator/index.php on line 25
+[12-Sep-2011 04:15:45] PHP Fatal error:  Call to undefined function ptc_backgroundimage_creator() in /home/pressabl/public_html/wp-content/plugins/pressabl-css-generator/processor.php on line 177
+[12-Sep-2011 04:37:47] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting ']' in /home/pressabl/public_html/wp-content/plugins/pressabl-css-generator/processor.php on line 730

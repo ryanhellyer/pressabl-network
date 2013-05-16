@@ -1,0 +1,3 @@
+To remove .svn and .git files ... 
+find . -name .svn |xargs rm -rf
+find . -name .git |xargs rm -rf
